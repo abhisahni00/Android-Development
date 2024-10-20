@@ -3,7 +3,6 @@
     <item
         android:title="settings"
         android:id="@+id/menu1"
-        android:icon="@drawable/ic_settings"
         android:showAsAction="collapseActionView"/>
     <item
         android:title="profile"

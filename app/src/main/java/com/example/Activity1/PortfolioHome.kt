@@ -4,12 +4,18 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.Activity1.PortfolioHome
+import com.example.Basics.LoginSuccessful
 import com.example.Basics.R
+import com.example.Activity1.PortfolioHome as PortfolioHome1
 
 class PortfolioHome : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,24 +24,66 @@ class PortfolioHome : AppCompatActivity() {
         setContentView(R.layout.activity_portfolio_home)
         val t1 = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
         setSupportActionBar(t1)
+        val btn = findViewById<ImageButton>(R.id.profile)
+
+        btn.setOnClickListener{
+            var i = Intent(this, Profile::class.java)
+            startActivity(i)
+
+    }
+        val btn1 = findViewById<ImageButton>(R.id.skills)
+
+        btn1.setOnClickListener{
+            var i1 = Intent(this, skills::class.java)
+            startActivity(i1)
+
+        }
+        val btn2 = findViewById<ImageButton>(R.id.hobbies)
+        btn2.setOnClickListener {
+            var i2 = Intent(this, hobbies::class.java)
+            startActivity(i2)
+        }
+        val btn3 = findViewById<ImageButton>(R.id.academic)
+
+        btn3.setOnClickListener{
+            var i3 = Intent(this, academics::class.java)
+            startActivity(i3)
+
+        }
+        val btn4 = findViewById<ImageButton>(R.id.project)
+        btn4.setOnClickListener {
+            var i4 = Intent(this, project::class.java)
+            startActivity(i4)
+        }
+        val btn5 = findViewById<ImageButton>(R.id.contactme)
+        btn5.setOnClickListener {
+            var i5 = Intent(this, contact::class.java)
+            startActivity(i5)
+        }
+
     }
     override fun onCreateOptionsMenu(menu: android.view.Menu?): Boolean {
-        menuInflater.inflate(R.menu.portfolio, menu)
+        menuInflater.inflate(
+            R.menu.portfolio,
+            menu
+        )
         return true
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_email -> {
-                val i4 = Intent(Intent.ACTION_VIEW, Uri.parse("mailto:"))
+                val i4 = Intent(Intent.ACTION_VIEW, Uri.parse("mailto:abhisheksahni53@gmail.com"))
                 startActivity(i4)
                 true
             }
             R.id.menu_contact -> {
-                val i2 = Intent(Intent.ACTION_VIEW, Uri.parse("tel:123456789"))
+                val i2 = Intent(Intent.ACTION_VIEW, Uri.parse("tel:9034593821"))
                 startActivity(i2)
                 true
             }
             R.id.menu_feedback -> {
+                val i5 = Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/jdQ3YxeRuuodpJkJ6"))
+                startActivity(i5)
 
                 true
             }
@@ -43,4 +91,7 @@ class PortfolioHome : AppCompatActivity() {
 
         }
     }
+
+
+
 }

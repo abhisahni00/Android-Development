@@ -13,8 +13,26 @@
         android:theme="@style/Theme.Android"
         tools:targetApi="31">
         <activity
+            android:name="com.example.Activity1.contact"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Activity1.project"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Activity1.academics"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Activity1.skills"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Activity1.hobbies"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Activity1.Profile"
+            android:exported="true" />
+        <activity
             android:name="com.example.Activity1.PortfolioHome"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

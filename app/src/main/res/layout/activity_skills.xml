@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_21">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi,Abhishek"
+        android:textSize="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:textSize="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="105dp"
+        android:rowCount="2"
+        android:columnCount="3">
+
+        <ImageView
+            android:id="@+id/pyhton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/python"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_21"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/java"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/java"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_21"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/reqct"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/react"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_21"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/html"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/html"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_21"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/css"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/css"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_21"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+
+
+    </GridLayout>
+</LinearLayout>
