@@ -55,9 +55,9 @@ class PortfolioHome : AppCompatActivity() {
             var i4 = Intent(this, project::class.java)
             startActivity(i4)
         }
-        val btn5 = findViewById<ImageButton>(R.id.contactme)
+        val btn5 = findViewById<ImageButton>(R.id.Gallery)
         btn5.setOnClickListener {
-            var i5 = Intent(this, contact::class.java)
+            var i5 = Intent(this, gallery::class.java)
             startActivity(i5)
         }
 
@@ -72,8 +72,8 @@ class PortfolioHome : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_email -> {
-                val i4 = Intent(Intent.ACTION_VIEW, Uri.parse("mailto:abhisheksahni53@gmail.com"))
-                startActivity(i4)
+                val i1 = Intent(Intent.ACTION_VIEW, Uri.parse("mailto:abhisheksahni53@gmail.com"))
+                startActivity(i1)
                 true
             }
             R.id.menu_contact -> {
@@ -82,8 +82,8 @@ class PortfolioHome : AppCompatActivity() {
                 true
             }
             R.id.menu_feedback -> {
-                val i5 = Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/jdQ3YxeRuuodpJkJ6"))
-                startActivity(i5)
+                val i3 = Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/jdQ3YxeRuuodpJkJ6"))
+                startActivity(i3)
 
                 true
             }
