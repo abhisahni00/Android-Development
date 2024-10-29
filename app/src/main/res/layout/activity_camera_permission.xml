@@ -7,6 +7,13 @@
     android:orientation="vertical"
     android:gravity="bottom">
 
+
+    <ImageView
+        android:id="@+id/camera_capture"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="100dp"/>
+
     <androidx.cardview.widget.CardView
         android:layout_width="100dp"
         android:layout_height="100dp"
