@@ -12,6 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="622dp"
         android:layout_marginTop="110dp"
-        android:src="@drawable/img_11" />
+        android:src="@drawable/LoginSuccess" />
 
 </LinearLayout>

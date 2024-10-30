@@ -19,13 +19,13 @@
         android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
-        android:src="@drawable/img"
+        android:src="@drawable/CSE"
         android:scaleType="fitXY"
         />
 
     <ImageButton
         android:id="@+id/image2"
-        android:src="@drawable/img_1"
+        android:src="@drawable/Agriculture"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -36,7 +36,7 @@
         />
     <ImageButton
         android:id="@+id/image3"
-        android:src="@drawable/img_2"
+        android:src="@drawable/Law"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -47,7 +47,7 @@
         />
     <ImageButton
         android:id="@+id/image4"
-        android:src="@drawable/img_3"
+        android:src="@drawable/Archi"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -58,7 +58,7 @@
         />
     <ImageButton
         android:id="@+id/image5"
-        android:src="@drawable/img_4"
+        android:src="@drawable/Business"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -69,7 +69,7 @@
         />
     <ImageButton
         android:id="@+id/image6"
-        android:src="@drawable/img_5"
+        android:src="@drawable/Civll"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -80,7 +80,7 @@
         />
     <ImageButton
         android:id="@+id/image7"
-        android:src="@drawable/img_6"
+        android:src="@drawable/Pharma"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -91,7 +91,7 @@
         />
     <ImageButton
         android:id="@+id/image8"
-        android:src="@drawable/img_7"
+        android:src="@drawable/BioScience"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -102,7 +102,7 @@
         />
     <ImageButton
         android:id="@+id/image9"
-        android:src="@drawable/img_8"
+        android:src="@drawable/LPU"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"

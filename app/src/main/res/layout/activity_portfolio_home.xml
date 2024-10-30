@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/img_21">
+    android:background="@drawable/Act1Back">
 
     <androidx.appcompat.widget.Toolbar
 
@@ -41,7 +41,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:scaleType="fitXY"
-                android:background="@drawable/img_21"
+                android:background="@drawable/Act1Back"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
 
@@ -62,7 +62,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"/>
         <ImageButton
@@ -75,7 +75,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"/>
 
@@ -89,7 +89,7 @@
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
             android:src="@drawable/academic"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
@@ -105,7 +105,7 @@
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
             android:text="Button 5"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
@@ -119,7 +119,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"/>
 

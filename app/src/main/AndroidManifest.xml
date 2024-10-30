@@ -19,6 +19,18 @@
         android:theme="@style/Theme.Android"
         tools:targetApi="31">
         <activity
+            android:name="com.example.Activity2.Page1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".CameraPermission"
             android:exported="true" />
         <activity
@@ -51,15 +63,6 @@
         <activity
             android:name="com.example.Activity1.PortfolioHome"
             android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".LoginSuccessful"
             android:exported="true" />

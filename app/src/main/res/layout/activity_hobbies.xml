@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/img_21">
+    android:background="@drawable/Act1Back">
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
 
@@ -63,7 +63,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"/>
         <ImageButton
@@ -76,7 +76,7 @@
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
             android:src="@drawable/cars"
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
@@ -91,7 +91,7 @@
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
 
-            android:background="@drawable/img_21"
+            android:background="@drawable/Act1Back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
