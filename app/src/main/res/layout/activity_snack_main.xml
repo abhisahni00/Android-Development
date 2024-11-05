@@ -19,13 +19,13 @@
         android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
-        android:src="@drawable/CSE"
+        android:src="@drawable/cse"
         android:scaleType="fitXY"
         />
 
     <ImageButton
         android:id="@+id/image2"
-        android:src="@drawable/Agriculture"
+        android:src="@drawable/agriculture"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -36,7 +36,7 @@
         />
     <ImageButton
         android:id="@+id/image3"
-        android:src="@drawable/Law"
+        android:src="@drawable/law"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -47,7 +47,7 @@
         />
     <ImageButton
         android:id="@+id/image4"
-        android:src="@drawable/Archi"
+        android:src="@drawable/archi"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -58,7 +58,7 @@
         />
     <ImageButton
         android:id="@+id/image5"
-        android:src="@drawable/Business"
+        android:src="@drawable/business"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -69,7 +69,7 @@
         />
     <ImageButton
         android:id="@+id/image6"
-        android:src="@drawable/Civll"
+        android:src="@drawable/civll"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -80,7 +80,7 @@
         />
     <ImageButton
         android:id="@+id/image7"
-        android:src="@drawable/Pharma"
+        android:src="@drawable/pharma"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -91,7 +91,7 @@
         />
     <ImageButton
         android:id="@+id/image8"
-        android:src="@drawable/BioScience"
+        android:src="@drawable/bioscience"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"
@@ -102,7 +102,7 @@
         />
     <ImageButton
         android:id="@+id/image9"
-        android:src="@drawable/LPU"
+        android:src="@drawable/lpu"
         android:layout_height="0dp"
         android:layout_width="0dp"
         android:layout_columnWeight="1"

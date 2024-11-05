@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/Act1Back">
+    android:background="@drawable/act1back">
 
     <androidx.appcompat.widget.Toolbar
 
@@ -35,13 +35,13 @@
                 android:id="@+id/profile"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:src="@drawable/Profile"
+                android:src="@drawable/profile"
                 android:layout_row="0"
                 android:layout_column="0"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:scaleType="fitXY"
-                android:background="@drawable/Act1Back"
+                android:background="@drawable/act1back"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
 
@@ -56,26 +56,26 @@
             android:id="@+id/skills"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:src="@drawable/Skills"
+            android:src="@drawable/skills"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/Act1Back"
+            android:background="@drawable/act1back"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"/>
         <ImageButton
             android:id="@+id/hobbies"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:src="@drawable/Hobbies"
+            android:src="@drawable/hobbies"
             android:layout_row="2"
             android:layout_column="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/Act1Back"
+            android:background="@drawable/act1back"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"/>
 
@@ -88,8 +88,8 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:src="@drawable/Academic"
-            android:background="@drawable/Act1Back"
+            android:src="@drawable/academic"
+            android:background="@drawable/act1back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
@@ -98,14 +98,14 @@
             android:id="@+id/project"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:src="@drawable/Project"
+            android:src="@drawable/project"
             android:layout_row="1"
             android:layout_column="1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
             android:text="Button 5"
-            android:background="@drawable/Act1Back"
+            android:background="@drawable/act1back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
@@ -113,13 +113,13 @@
             android:id="@+id/Gallery"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:src="@drawable/Gallery"
+            android:src="@drawable/gallery"
             android:layout_row="2"
             android:layout_column="1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:scaleType="fitXY"
-            android:background="@drawable/Act1Back"
+            android:background="@drawable/act1back"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"/>
 

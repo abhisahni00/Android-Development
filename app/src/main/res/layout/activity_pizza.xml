@@ -10,7 +10,7 @@
 
     android:layout_marginRight="5dp"
     android:layout_marginBottom="3dp"
-    android:background="@drawable/PizzaBackk"
+    android:background="@drawable/pizzaback"
     android:orientation="vertical">
 
 

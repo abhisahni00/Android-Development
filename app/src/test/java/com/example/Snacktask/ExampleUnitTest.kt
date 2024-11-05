@@ -1,4 +1,4 @@
-package com.example.snacktask
+package com.example.Snacktask
 
 import org.junit.Test
 

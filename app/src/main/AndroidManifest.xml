@@ -19,6 +19,12 @@
         android:theme="@style/Theme.Android"
         tools:targetApi="31">
         <activity
+            android:name=".CustomAlert"
+            android:exported="true" />
+        <activity
+            android:name=".DialogBox"
+            android:exported="true" />
+        <activity
             android:name="com.example.Activity2.Page1"
             android:exported="false" />
         <activity
@@ -73,34 +79,34 @@
             android:name=".Pizza"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome8"
+            android:name="com.example.Snacktask.Welcome8"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome7"
+            android:name="com.example.Snacktask.Welcome7"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome6"
+            android:name="com.example.Snacktask.Welcome6"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome5"
+            android:name="com.example.Snacktask.Welcome5"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome4"
+            android:name="com.example.Snacktask.Welcome4"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome3"
+            android:name="com.example.Snacktask.Welcome3"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome2"
+            android:name="com.example.Snacktask.Welcome2"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome1"
+            android:name="com.example.Snacktask.Welcome1"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.Welcome"
+            android:name="com.example.Snacktask.Welcome"
             android:exported="true" />
         <activity
-            android:name="com.example.snacktask.SnackMain"
+            android:name="com.example.Snacktask.SnackMain"
             android:exported="true" />
         <activity
             android:name=".Implicit"
