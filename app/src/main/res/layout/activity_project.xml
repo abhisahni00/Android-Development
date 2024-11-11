@@ -34,6 +34,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:background="#383733"
+
         />
     <TextView
         android:layout_width="wrap_content"

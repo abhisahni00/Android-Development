@@ -16,5 +16,11 @@
 
         android:showAsAction="collapseActionView"/>
 
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:showAsAction="collapseActionView"/>
+
+
 
 </menu>

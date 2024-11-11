@@ -1,7 +1,9 @@
 package com.example.Basics
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.widget.Button
+import android.widget.EditText
 import android.widget.RatingBar
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -15,29 +17,29 @@ class CustomAlert : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_custom_alert)
-        val subscribe = findViewById<Button>(R.id.btnsubscribe)
-
+        var subscribe = findViewById<Button>(R.id.btnsubscribe)
 
         subscribe.setOnClickListener{
-            val pop = AlertDialog.Builder(this)
-            pop.setTitle("Exit")
-            pop.setMessage("Do you realy want to exit?")
-            pop.setCancelable(false)
-            pop.setPositiveButton("Yes"){ dialog,_ ->
-                finish()
+            var dialogbox = LayoutInflater.from(this).inflate(R.layout.custom_dialog,null)
+            var pop = AlertDialog.Builder(this).setView(dialogbox)
+
+            pop.setPositiveButton("Subscribe"){ dialog,_ ->
+               val e = dialogbox.findViewById<EditText>(R.id.email)
+               val email = e.text.toString()
+               if (email.isNotBlank()){
+                   Toast.makeText(this, "Subscribed with  $email", Toast.LENGTH_LONG).show()
+
+               }
+                else{
+                    Toast.makeText(this, "Enter Valid Email id", Toast.LENGTH_LONG).show()
+               }
+               dialog.dismiss()
             }
 
-            pop.setNeutralButton("Maybe"){dialog,_ ->
+            pop.setNegativeButton("cancel"){dialog,_ ->
                 dialog.dismiss()}
-
-            pop.setNegativeButton("No"){dialog,_ ->
-                dialog.dismiss()}
-
 
             pop.create().show()
-
-
         }
-
     }
 }

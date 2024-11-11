@@ -6,8 +6,10 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.RatingBar
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.ViewCompat
@@ -84,6 +86,27 @@ class PortfolioHome : AppCompatActivity() {
             R.id.menu_feedback -> {
                 val i3 = Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/jdQ3YxeRuuodpJkJ6"))
                 startActivity(i3)
+
+                true
+            }
+            R.id.exit -> {
+
+                    val pop = AlertDialog.Builder(this)
+                    pop.setTitle("Exit")
+                    pop.setMessage("Do you really want to exit?")
+                    pop.setCancelable(false)
+                    pop.setPositiveButton("Yes"){ dialog,_ ->
+                        finish()
+                    }
+
+                    pop.setNeutralButton("No"){dialog,_ ->
+                        dialog.dismiss()}
+
+
+                    pop.create().show()
+
+
+
 
                 true
             }
