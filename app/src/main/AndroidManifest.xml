@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Android"
         tools:targetApi="31">
         <activity
+            android:name=".ContextMenu"
+            android:exported="true" />
+        <activity
             android:name=".CustomAlert"
             android:exported="true" />
         <activity
